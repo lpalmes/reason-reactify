@@ -7,6 +7,7 @@
 */
 
 exception InvalidNodePrimitiveMatchInUpdateInstance;
+open Js_of_ocaml;
 
 let str = string_of_int;
 

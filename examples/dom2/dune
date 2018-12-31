@@ -1,0 +1,6 @@
+(executable
+  (name WebReconciler2)
+  (public_name WebReconciler2)
+  (libraries reconciler)
+  (preprocess (pps js_of_ocaml-ppx))
+)

@@ -1,0 +1,4 @@
+(executable
+    (name test_reconciler)
+    (public_name TestReconciler)
+    (libraries React reconciler))

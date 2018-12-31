@@ -1,0 +1,3 @@
+(library
+  (name reconciler)
+  (libraries React))

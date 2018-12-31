@@ -466,6 +466,7 @@ module Make = (ReconcilerImpl: Reconciler) => {
 
   let useReducer =
       (reducer: ('state, 'action) => 'state, initialState: 'state) => {
+    print_endline("Using reducer");
     let globalState = __globalState^;
     let componentState =
       ComponentState.popOldState(globalState, initialState);
